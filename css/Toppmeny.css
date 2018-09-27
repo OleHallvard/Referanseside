@@ -1,0 +1,72 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+a
+{
+font-family:'Roboto', sans-serif;
+color: #000;
+font-size: 16px;
+font-weight: 300;
+letter-spacing: 0.0em;
+float:right;
+text-decoration: none;
+padding: 0px;
+}
+
+
+
+
+
+
+
+a:hover {
+text-decoration: underline;
+text-underline-position: auto;
+ text-decoration-color:#FF6400;
+
+}
+
+
+
+
+
+li{
+list-style-type: none;
+}
+
+   
+  
+.toppmenyen{
+position: relative;
+background-color: white;
+height: 65px;
+width: 100%;
+z-index: 1000;
+top: 0;
+
+}
+
+
+.linker{
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+width: 90%;
+right:10%;
+float:right;
+}
+
+
+#logo{
+position: absolute;
+height:24px;
+top: 50%;
+transform: translateY(-50%);
+left:10%;
+}
